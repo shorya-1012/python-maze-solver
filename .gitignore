@@ -1,0 +1,42 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directory
+venv/
+.env/
+
+# Distribution/Packaging
+build/
+dist/
+*.egg-info/
+
+# Pygame-specific files
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+*.coverage
+*.tox
+*.nox
+*.coverage.*
+*.hypothesis/
+.pytest_cache/
+
+# Python runtime environment (if applicable)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Miscellaneous
+*.sqlite
+*.db
+*.tar.gz
+
